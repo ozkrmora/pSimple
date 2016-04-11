@@ -1,0 +1,32 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+
+header {
+	width:100px;
+	margin: 0 auto;
+}
+section{
+	width:80%;
+	background-color:#C3C3C3;
+}
+article #formu{
+	width:320px;
+	margin: 0 auto;
+}
+aside{
+	width:10%;
+	
+}
+select {
+	width:200px;
+	font: 12px arial, sans-serif;
+}
+
+input#nombre {
+	width:200px;
+	background-color: #75ABE4;
+	color: #E6567F;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Htlm5+Javascript</title>	
+		
+
+	<script languaje="JavaScript">
+		
+		function convertir(){
+			var str;	
+			var str2="";
+			var j=1;
+			str = document.formulario.texto.value;
+
+		
+			for(i=0;i<15;i++){
+				if(j==4){
+					str2+=str[i].toUpperCase();		
+					j=1;
+					}else{		
+						str2+=str[i];
+						j++;
+					}
+			}
+
+			alert(str2.leng());
+			
+
+		}	
+	</script>
+
+</head>
+<body>
+<header>
+</header>
+
+<section>
+<article>
+	<h2>Quiz</h2>
+	<p>Convertir cuarta letra en mayuscula</p>
+
+	<form method="get" name="formulario">
+		<label for="minusculas">Nombre</label>
+		<input type="text" id="minusculas" name="texto" autofocus required />
+		<input type="submit" value="Convertir a MAYUSCULAS cada 4 letra" onclick="convertir()"  />
+	</form>
+</article>
+</section>
+</body>
+</html>
